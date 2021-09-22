@@ -1,7 +1,6 @@
 services:
 - type: pserv
   name: redis
-  region: frankfurt
   env: docker
   disk:
     name: data
